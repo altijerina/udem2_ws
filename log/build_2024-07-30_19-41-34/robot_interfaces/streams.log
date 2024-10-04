@@ -1,0 +1,317 @@
+[0.075s] Invoking command in '/home/albert/udem2_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/udem2_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/albert/udem2_ws/install/robot_interfaces
+[0.796s] -- The C compiler identification is GNU 11.4.0
+[0.797s] -- The CXX compiler identification is GNU 11.4.0
+[0.797s] -- Detecting C compiler ABI info
+[0.798s] -- Detecting C compiler ABI info - done
+[0.798s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.799s] -- Detecting C compile features
+[0.799s] -- Detecting C compile features - done
+[0.799s] -- Detecting CXX compiler ABI info
+[0.799s] -- Detecting CXX compiler ABI info - done
+[0.799s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.800s] -- Detecting CXX compile features
+[0.800s] -- Detecting CXX compile features - done
+[0.800s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.800s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.880s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.917s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.955s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.239s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.885s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.885s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.885s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.885s]   the cmake_policy command to set the policy and suppress this warning.
+[3.885s] 
+[3.885s] Call Stack (most recent call first):
+[3.886s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.886s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.886s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[3.886s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.886s] [0m
+[3.922s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[3.936s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.936s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.936s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.936s]   the cmake_policy command to set the policy and suppress this warning.
+[3.936s] 
+[3.936s] Call Stack (most recent call first):
+[3.936s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.936s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.937s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.937s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[3.937s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.938s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.938s] [0m
+[3.970s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.970s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.970s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.970s]   the cmake_policy command to set the policy and suppress this warning.
+[3.970s] 
+[3.970s] Call Stack (most recent call first):
+[3.970s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.970s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.970s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.971s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[3.971s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.971s] [0m
+[3.984s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[3.985s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.985s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.985s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.018s] -- Found PythonExtra: .so
+[4.211s] -- Configuring done (4.1s)
+[4.259s] -- Generating done (0.0s)
+[4.262s] -- Build files have been written to: /home/albert/udem2_ws/build/robot_interfaces
+[4.271s] Invoked command in '/home/albert/udem2_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/udem2_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/albert/udem2_ws/install/robot_interfaces
+[4.272s] Invoking command in '/home/albert/udem2_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/udem2_ws/build/robot_interfaces -- -j8 -l8
+[4.318s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.328s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.413s] [  4%] Built target ament_cmake_python_copy_robot_interfaces
+[5.465s] running egg_info
+[5.466s] creating robot_interfaces.egg-info
+[5.467s] writing robot_interfaces.egg-info/PKG-INFO
+[5.467s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[5.467s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[5.468s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[5.472s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[5.473s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[5.544s] [  4%] Built target ament_cmake_python_build_robot_interfaces_egg
+[6.336s] [  4%] Built target robot_interfaces__cpp
+[6.358s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.359s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.381s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.633s] [ 12%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/action/detail/count_until__functions.c.o[0m
+[6.665s] [ 14%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/action/detail/move_robot__functions.c.o[0m
+[6.705s] [ 17%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/action/detail/move_turtle__functions.c.o[0m
+[7.145s] [ 19%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[7.313s] [ 19%] Built target robot_interfaces__rosidl_generator_c
+[7.365s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.385s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.405s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.969s] [ 27%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/count_until__type_support.cpp.o[0m
+[7.997s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/move_robot__type_support.cpp.o[0m
+[8.003s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/move_turtle__type_support.cpp.o[0m
+[8.053s] [ 34%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/action/count_until__type_support.cpp.o[0m
+[8.767s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/action/count_until__type_support.cpp.o[0m
+[8.861s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/action/move_robot__type_support.cpp.o[0m
+[8.954s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/action/move_turtle__type_support.cpp.o[0m
+[9.008s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/action/move_robot__type_support.cpp.o[0m
+[9.053s] [ 44%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[9.188s] [ 44%] Built target robot_interfaces__rosidl_typesupport_c
+[9.253s] [ 46%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/action/move_turtle__type_support.cpp.o[0m
+[9.275s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o[0m
+[9.782s] [ 51%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/action/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[9.901s] [ 53%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/action/detail/dds_fastrtps/move_turtle__type_support.cpp.o[0m
+[10.340s] [ 55%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/action/detail/count_until__type_support.c.o[0m
+[10.365s] [ 57%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/action/detail/move_robot__type_support.c.o[0m
+[10.390s] [ 59%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/action/detail/count_until__type_support_c.cpp.o[0m
+[10.460s] [ 61%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.573s] [ 63%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/action/detail/move_robot__type_support_c.cpp.o[0m
+[10.574s] [ 65%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/action/detail/move_turtle__type_support.c.o[0m
+[10.712s] [ 65%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[10.727s] [ 68%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.737s] [ 70%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/action/detail/move_turtle__type_support_c.cpp.o[0m
+[10.915s] [ 70%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[10.920s] [ 72%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[11.042s] [ 72%] Built target robot_interfaces__rosidl_typesupport_cpp
+[11.691s] [ 74%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.731s] [ 76%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.801s] [ 76%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[11.841s] [ 76%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[11.867s] [ 76%] Built target robot_interfaces
+[11.894s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.141s] [ 78%] Built target robot_interfaces__py
+[14.160s] [ 82%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/action/_move_robot_s.c.o[0m
+[14.161s] [ 82%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/action/_count_until_s.c.o[0m
+[14.161s] [ 85%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/action/_move_turtle_s.c.o[0m
+[14.322s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so[0m
+[14.370s] [ 87%] Built target robot_interfaces__rosidl_generator_py
+[14.392s] [ 89%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.392s] [ 91%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[14.393s] [ 93%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.609s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.609s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.610s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.662s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[14.662s] [100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[14.663s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[14.671s] Invoked command in '/home/albert/udem2_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/udem2_ws/build/robot_interfaces -- -j8 -l8
+[14.995s] Invoking command in '/home/albert/udem2_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/udem2_ws/build/robot_interfaces
+[15.001s] -- Install configuration: ""
+[15.001s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[15.001s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__struct.h
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__type_support.h
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__functions.c
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__functions.h
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__functions.c
+[15.002s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__struct.h
+[15.003s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__functions.h
+[15.003s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__type_support.h
+[15.003s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__struct.h
+[15.003s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__functions.h
+[15.003s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__type_support.h
+[15.003s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__functions.c
+[15.004s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/move_robot.h
+[15.004s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/count_until.h
+[15.004s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/move_turtle.h
+[15.004s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[15.004s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[15.004s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[15.005s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+[15.005s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[15.005s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[15.005s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.005s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[15.005s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[15.006s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[15.006s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__rosidl_typesupport_fastrtps_c.h
+[15.006s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_c.h
+[15.006s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[15.006s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[15.006s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[15.006s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[15.006s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.007s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[15.007s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[15.007s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__type_support.c
+[15.007s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__rosidl_typesupport_introspection_c.h
+[15.007s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__type_support.c
+[15.007s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_c.h
+[15.007s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h
+[15.007s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__type_support.c
+[15.008s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[15.008s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[15.008s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[15.009s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+[15.009s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[15.009s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[15.009s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/move_turtle.hpp
+[15.009s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[15.009s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__builder.hpp
+[15.009s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__traits.hpp
+[15.009s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__builder.hpp
+[15.009s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__builder.hpp
+[15.009s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__struct.hpp
+[15.010s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__traits.hpp
+[15.010s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__traits.hpp
+[15.010s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__struct.hpp
+[15.010s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__struct.hpp
+[15.010s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/count_until.hpp
+[15.010s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/move_robot.hpp
+[15.011s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[15.011s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[15.011s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.011s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[15.011s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[15.011s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[15.011s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp
+[15.011s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[15.011s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/dds_fastrtps
+[15.011s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[15.012s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.012s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[15.012s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action
+[15.012s] -- Up-to-date: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail
+[15.012s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_cpp.hpp
+[15.012s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__type_support.cpp
+[15.013s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__type_support.cpp
+[15.013s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/count_until__type_support.cpp
+[15.013s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/move_turtle__rosidl_typesupport_introspection_cpp.hpp
+[15.013s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[15.014s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[15.014s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[15.014s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[15.014s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[15.014s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[15.015s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info
+[15.015s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.015s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[15.015s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[15.015s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.015s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces
+[15.015s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.016s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[15.016s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.016s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action
+[15.017s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_move_robot.py
+[15.017s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_move_turtle_s.c
+[15.017s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/__init__.py
+[15.017s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_count_until.py
+[15.017s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_count_until_s.c
+[15.017s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_move_robot_s.c
+[15.017s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_move_turtle.py
+[15.018s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[15.018s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.018s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[15.018s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.018s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[15.088s] Listing '/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[15.089s] Compiling '/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...
+[15.089s] Listing '/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action'...
+[15.089s] Compiling '/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/__init__.py'...
+[15.089s] Compiling '/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_count_until.py'...
+[15.089s] Compiling '/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_move_robot.py'...
+[15.089s] Compiling '/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_move_turtle.py'...
+[15.093s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.094s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.094s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.095s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.095s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.095s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.095s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[15.096s] -- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""
+[15.096s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/action/CountUntil.idl
+[15.096s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/action/MoveRobot.idl
+[15.096s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/action/MoveTurtle.idl
+[15.097s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/action/CountUntil.action
+[15.097s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/action/MoveRobot.action
+[15.097s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/action/MoveTurtle.action
+[15.097s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[15.097s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[15.097s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[15.097s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[15.097s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[15.098s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[15.098s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[15.098s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[15.098s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[15.098s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[15.098s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+[15.098s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[15.099s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[15.099s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[15.099s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[15.099s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.099s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[15.099s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.099s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[15.100s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[15.100s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[15.100s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.100s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.100s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[15.101s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.101s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[15.101s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[15.101s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[15.101s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[15.101s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[15.101s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.101s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.101s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[15.102s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[15.102s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.102s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.102s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[15.102s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[15.102s] -- Installing: /home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+[15.104s] Invoked command in '/home/albert/udem2_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/udem2_ws/build/robot_interfaces

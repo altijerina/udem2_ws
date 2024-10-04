@@ -1,0 +1,2 @@
+turtle_spawner_component::TurtleController;lib/libturtle_spawner_component.so
+turtlebot3_spawner::Turtlebot3Controller;lib/libturtlebot_control_component.so

@@ -1,0 +1,44 @@
+[1.921s] Invoking command in '/home/albert/udem2_ws/src/executors_py': PYTHONPATH=/home/albert/udem2_ws/build/executors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/executors_py build --build-base /home/albert/udem2_ws/build/executors_py/build install --record /home/albert/udem2_ws/build/executors_py/install.log --single-version-externally-managed install_data
+[2.513s] running egg_info
+[2.513s] creating ../../build/executors_py/executors_py.egg-info
+[2.514s] writing ../../build/executors_py/executors_py.egg-info/PKG-INFO
+[2.514s] writing dependency_links to ../../build/executors_py/executors_py.egg-info/dependency_links.txt
+[2.514s] writing entry points to ../../build/executors_py/executors_py.egg-info/entry_points.txt
+[2.514s] writing requirements to ../../build/executors_py/executors_py.egg-info/requires.txt
+[2.514s] writing top-level names to ../../build/executors_py/executors_py.egg-info/top_level.txt
+[2.515s] writing manifest file '../../build/executors_py/executors_py.egg-info/SOURCES.txt'
+[2.517s] reading manifest file '../../build/executors_py/executors_py.egg-info/SOURCES.txt'
+[2.518s] writing manifest file '../../build/executors_py/executors_py.egg-info/SOURCES.txt'
+[2.518s] running build
+[2.519s] running build_py
+[2.519s] creating /home/albert/udem2_ws/build/executors_py/build
+[2.519s] creating /home/albert/udem2_ws/build/executors_py/build/lib
+[2.519s] creating /home/albert/udem2_ws/build/executors_py/build/lib/executors_py
+[2.520s] copying executors_py/__init__.py -> /home/albert/udem2_ws/build/executors_py/build/lib/executors_py
+[2.520s] copying executors_py/number_publisher.py -> /home/albert/udem2_ws/build/executors_py/build/lib/executors_py
+[2.520s] copying executors_py/multi_threaded_executor.py -> /home/albert/udem2_ws/build/executors_py/build/lib/executors_py
+[2.520s] copying executors_py/single_threaded_executor.py -> /home/albert/udem2_ws/build/executors_py/build/lib/executors_py
+[2.520s] running install
+[2.521s] running install_lib
+[2.522s] creating /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py
+[2.522s] copying /home/albert/udem2_ws/build/executors_py/build/lib/executors_py/__init__.py -> /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py
+[2.522s] copying /home/albert/udem2_ws/build/executors_py/build/lib/executors_py/number_publisher.py -> /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py
+[2.522s] copying /home/albert/udem2_ws/build/executors_py/build/lib/executors_py/multi_threaded_executor.py -> /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py
+[2.522s] copying /home/albert/udem2_ws/build/executors_py/build/lib/executors_py/single_threaded_executor.py -> /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py
+[2.523s] byte-compiling /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py/__init__.py to __init__.cpython-310.pyc
+[2.524s] byte-compiling /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py/number_publisher.py to number_publisher.cpython-310.pyc
+[2.524s] byte-compiling /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py/multi_threaded_executor.py to multi_threaded_executor.cpython-310.pyc
+[2.525s] byte-compiling /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py/single_threaded_executor.py to single_threaded_executor.cpython-310.pyc
+[2.526s] running install_data
+[2.526s] creating /home/albert/udem2_ws/install/executors_py/share/ament_index
+[2.526s] creating /home/albert/udem2_ws/install/executors_py/share/ament_index/resource_index
+[2.526s] creating /home/albert/udem2_ws/install/executors_py/share/ament_index/resource_index/packages
+[2.526s] copying resource/executors_py -> /home/albert/udem2_ws/install/executors_py/share/ament_index/resource_index/packages
+[2.526s] copying package.xml -> /home/albert/udem2_ws/install/executors_py/share/executors_py
+[2.527s] running install_egg_info
+[2.529s] Copying ../../build/executors_py/executors_py.egg-info to /home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages/executors_py-0.0.0-py3.10.egg-info
+[2.531s] running install_scripts
+[2.565s] Installing multi_threaded_executor script to /home/albert/udem2_ws/install/executors_py/lib/executors_py
+[2.565s] Installing single_threaded_executor script to /home/albert/udem2_ws/install/executors_py/lib/executors_py
+[2.565s] writing list of installed files to '/home/albert/udem2_ws/build/executors_py/install.log'
+[2.608s] Invoked command in '/home/albert/udem2_ws/src/executors_py' returned '0': PYTHONPATH=/home/albert/udem2_ws/build/executors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/udem2_ws/install/executors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/executors_py build --build-base /home/albert/udem2_ws/build/executors_py/build install --record /home/albert/udem2_ws/build/executors_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found robot_interfaces: 0.0.0 (/home/albert/udem2_ws/install/robot_interfaces/share/robot_interfaces/cmake)
+-- Configuring done (5.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/albert/udem2_ws/build/final_project_cpp
+[ 10%] [32mBuilding CXX object CMakeFiles/turtle_spawner_component.dir/src/turtle_spawner_component.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/turtlebot_control_component.dir/src/turtlebot3_spawner.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/turtle_spawner_client.dir/src/turtle_spawner_client.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/turtle_spawner_server.dir/src/turtle_spawner_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_spawner_lifecycle.dir/src/turtle_spawner_lifecycle.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable turtle_spawner_client[0m
+[ 60%] Built target turtle_spawner_client
+[ 70%] [32m[1mLinking CXX executable turtle_spawner_lifecycle[0m
+[ 70%] Built target turtle_spawner_lifecycle
+[ 80%] [32m[1mLinking CXX shared library libturtlebot_control_component.so[0m
+[ 80%] Built target turtlebot_control_component
+[ 90%] [32m[1mLinking CXX executable turtle_spawner_server[0m
+[100%] [32m[1mLinking CXX shared library libturtle_spawner_component.so[0m
+[100%] Built target turtle_spawner_server
+[100%] Built target turtle_spawner_component
+-- Install configuration: ""
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/lib/libturtle_spawner_component.so
+-- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/final_project_cpp/lib/libturtle_spawner_component.so" to ""
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/lib/libturtlebot_control_component.so
+-- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/final_project_cpp/lib/libturtlebot_control_component.so" to ""
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/lib/final_project_cpp/turtle_spawner_client
+-- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/final_project_cpp/lib/final_project_cpp/turtle_spawner_client" to ""
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/lib/final_project_cpp/turtle_spawner_server
+-- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/final_project_cpp/lib/final_project_cpp/turtle_spawner_server" to ""
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/lib/final_project_cpp/turtle_spawner_lifecycle
+-- Set non-toolchain portion of runtime path of "/home/albert/udem2_ws/install/final_project_cpp/lib/final_project_cpp/turtle_spawner_lifecycle" to ""
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/ament_index/resource_index/package_run_dependencies/final_project_cpp
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/ament_index/resource_index/parent_prefix_path/final_project_cpp
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/environment/path.sh
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/environment/path.dsv
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/local_setup.bash
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/local_setup.sh
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/local_setup.zsh
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/local_setup.dsv
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/package.dsv
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/ament_index/resource_index/packages/final_project_cpp
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/ament_index/resource_index/rclcpp_components/final_project_cpp
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/cmake/final_project_cppConfig.cmake
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/cmake/final_project_cppConfig-version.cmake
+-- Installing: /home/albert/udem2_ws/install/final_project_cpp/share/final_project_cpp/package.xml

@@ -1,0 +1,49 @@
+[1.666s] Invoking command in '/home/albert/udem2_ws/src/lifecycle_py': PYTHONPATH=/home/albert/udem2_ws/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/albert/udem2_ws/build/lifecycle_py/build install --record /home/albert/udem2_ws/build/lifecycle_py/install.log --single-version-externally-managed install_data
+[2.080s] running egg_info
+[2.080s] creating ../../build/lifecycle_py/lifecycle_py.egg-info
+[2.081s] writing ../../build/lifecycle_py/lifecycle_py.egg-info/PKG-INFO
+[2.081s] writing dependency_links to ../../build/lifecycle_py/lifecycle_py.egg-info/dependency_links.txt
+[2.081s] writing entry points to ../../build/lifecycle_py/lifecycle_py.egg-info/entry_points.txt
+[2.081s] writing requirements to ../../build/lifecycle_py/lifecycle_py.egg-info/requires.txt
+[2.081s] writing top-level names to ../../build/lifecycle_py/lifecycle_py.egg-info/top_level.txt
+[2.082s] writing manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[2.083s] reading manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[2.084s] writing manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[2.084s] running build
+[2.084s] running build_py
+[2.085s] creating /home/albert/udem2_ws/build/lifecycle_py/build
+[2.085s] creating /home/albert/udem2_ws/build/lifecycle_py/build/lib
+[2.085s] creating /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[2.085s] copying lifecycle_py/__init__.py -> /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[2.085s] copying lifecycle_py/number_publisher.py -> /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[2.085s] copying lifecycle_py/move_robot_server.py -> /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[2.086s] copying lifecycle_py/move_robot_startup.py -> /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[2.086s] copying lifecycle_py/lifecycle_node_manager.py -> /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[2.086s] running install
+[2.087s] running install_lib
+[2.088s] creating /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[2.088s] copying /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py/__init__.py -> /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[2.088s] copying /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py/number_publisher.py -> /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[2.088s] copying /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py/move_robot_server.py -> /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[2.089s] copying /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py/move_robot_startup.py -> /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[2.089s] copying /home/albert/udem2_ws/build/lifecycle_py/build/lib/lifecycle_py/lifecycle_node_manager.py -> /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[2.090s] byte-compiling /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/__init__.py to __init__.cpython-310.pyc
+[2.090s] byte-compiling /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/number_publisher.py to number_publisher.cpython-310.pyc
+[2.091s] byte-compiling /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/move_robot_server.py to move_robot_server.cpython-310.pyc
+[2.092s] byte-compiling /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/move_robot_startup.py to move_robot_startup.cpython-310.pyc
+[2.093s] byte-compiling /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/lifecycle_node_manager.py to lifecycle_node_manager.cpython-310.pyc
+[2.093s] running install_data
+[2.093s] creating /home/albert/udem2_ws/install/lifecycle_py/share/ament_index
+[2.093s] creating /home/albert/udem2_ws/install/lifecycle_py/share/ament_index/resource_index
+[2.094s] creating /home/albert/udem2_ws/install/lifecycle_py/share/ament_index/resource_index/packages
+[2.094s] copying resource/lifecycle_py -> /home/albert/udem2_ws/install/lifecycle_py/share/ament_index/resource_index/packages
+[2.094s] copying package.xml -> /home/albert/udem2_ws/install/lifecycle_py/share/lifecycle_py
+[2.094s] running install_egg_info
+[2.097s] Copying ../../build/lifecycle_py/lifecycle_py.egg-info to /home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info
+[2.098s] running install_scripts
+[2.121s] Installing lifecycle_node_manager script to /home/albert/udem2_ws/install/lifecycle_py/lib/lifecycle_py
+[2.121s] Installing move_robot_server script to /home/albert/udem2_ws/install/lifecycle_py/lib/lifecycle_py
+[2.121s] Installing move_robot_startup script to /home/albert/udem2_ws/install/lifecycle_py/lib/lifecycle_py
+[2.121s] Installing number_publisher script to /home/albert/udem2_ws/install/lifecycle_py/lib/lifecycle_py
+[2.122s] writing list of installed files to '/home/albert/udem2_ws/build/lifecycle_py/install.log'
+[2.151s] Invoked command in '/home/albert/udem2_ws/src/lifecycle_py' returned '0': PYTHONPATH=/home/albert/udem2_ws/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/udem2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/albert/udem2_ws/build/lifecycle_py/build install --record /home/albert/udem2_ws/build/lifecycle_py/install.log --single-version-externally-managed install_data

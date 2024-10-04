@@ -1,0 +1,8 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/albert/udem2_ws/src/robot_interfaces:action/CountUntil.action",
+    "/home/albert/udem2_ws/src/robot_interfaces:action/MoveRobot.action",
+    "/home/albert/udem2_ws/src/robot_interfaces:action/MoveTurtle.action"
+  ]
+}

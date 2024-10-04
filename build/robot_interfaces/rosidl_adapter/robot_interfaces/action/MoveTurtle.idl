@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_interfaces/action/MoveTurtle.action
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct MoveTurtle_Goal {
+      double linear_vel_x;
+
+      double angular_vel_z;
+
+      int64 duration_sec;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct MoveTurtle_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct MoveTurtle_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};
